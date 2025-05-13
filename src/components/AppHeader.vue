@@ -1,8 +1,9 @@
 <template>
   <header>
     <div class="container">
-      <h1 class="logo"><span class="logo-bracket"></span>goikode<span class="logo-bracket">></span></h1>
+      <h1 class="logo"><span class="logo-bracket"></span>goikode<span class="logo-bracket"></span></h1>
       <nav>
+        <router-link to="/servicios">{{ $t('nav.servicios') }}</router-link>
         <router-link to="/">{{ $t('nav.home') }}</router-link>
         <router-link to="/about">{{ $t('nav.about') }}</router-link>
         <LanguageSelector class="language-selector" />

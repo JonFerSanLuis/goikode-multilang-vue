@@ -4,7 +4,8 @@ import { createI18n } from 'vue-i18n'
 const es = {
   nav: {
     home: 'Inicio',
-    about: 'Sobre Nosotros'
+    about: 'Sobre Nosotros',
+    servicios: 'Servicios'
   },
   home: {
     welcome: 'Bienvenido a Goikode',
@@ -44,6 +45,34 @@ const es = {
       description: 'El nombre "Goikode" viene de la combinación de "goiko" (que significa "superior" en euskera) y "code" (código en inglés). Aunque nuestro CEO insiste en que se le ocurrió mientras comía un pintxo de tortilla.'
     }
   },
+  servicios: {
+    title: 'Nuestros Servicios',
+    intro: 'Protegemos, analizamos y guiamos tu empresa hacia un entorno digital seguro.',
+    pentesting: {
+      title: 'Pentesting',
+      description: 'Simulación de ataques reales para identificar y solucionar vulnerabilidades antes de que sean explotadas.'
+    },
+    desarrollo: {
+      title: 'Desarrollo Seguro',
+      description: 'Desarrollamos software con seguridad incorporada desde la fase de diseño hasta la implementación final.'
+    },
+    auditoria: {
+      title: 'Auditorías de Seguridad',
+      description: 'Evaluaciones técnicas exhaustivas para detectar debilidades en sistemas y redes empresariales.'
+    },
+    formacion: {
+      title: 'Formación Técnica',
+      description: 'Capacitación práctica para equipos técnicos y no técnicos en seguridad de la información.'
+    },
+    consultoria: {
+      title: 'Consultoría Estratégica',
+      description: 'Asesoría para mejorar tu postura de ciberseguridad y cumplimiento de normativas.'
+    },
+    monitoreo: {
+      title: 'Monitorización 24/7',
+      description: 'Vigilancia constante de tus sistemas para detectar y responder a incidentes en tiempo real.'
+    }
+  },
   footer: {
     rights: 'Todos los derechos reservados.'
   },
@@ -56,7 +85,8 @@ const es = {
 const en = {
   nav: {
     home: 'Home',
-    about: 'About Us'
+    about: 'About Us',
+    servicios: 'Services'
   },
   home: {
     welcome: 'Welcome to Goikode',
@@ -96,6 +126,34 @@ const en = {
       description: 'The name "Goikode" comes from the combination of "goiko" (which means "superior" in Basque) and "code" (in English). Although our CEO insists that it came to him while eating a Spanish omelette pintxo.'
     }
   },
+  servicios: {
+    title: 'Our Services',
+    intro: 'We protect, analyze, and guide your company towards a secure digital environment.',
+    pentesting: {
+      title: 'Pentesting',
+      description: 'Real-world attack simulation to identify and fix vulnerabilities before attackers do.'
+    },
+    desarrollo: {
+      title: 'Secure Development',
+      description: 'We develop software with security integrated from the design phase to final deployment.'
+    },
+    auditoria: {
+      title: 'Security Audits',
+      description: 'Thorough technical evaluations to identify weaknesses in corporate systems and networks.'
+    },
+    formacion: {
+      title: 'Technical Training',
+      description: 'Hands-on training for both technical and non-technical teams in information security.'
+    },
+    consultoria: {
+      title: 'Strategic Consulting',
+      description: 'Expert advice to improve your cybersecurity posture and regulatory compliance.'
+    },
+    monitoreo: {
+      title: '24/7 Monitoring',
+      description: 'Continuous monitoring of your systems to detect and respond to incidents in real time.'
+    }
+  },
   footer: {
     rights: 'All rights reserved.'
   },
@@ -108,7 +166,8 @@ const en = {
 const eu = {
   nav: {
     home: 'Hasiera',
-    about: 'Guri Buruz'
+    about: 'Guri Buruz',
+    servicios: 'Zerbitzuak'
   },
   home: {
     welcome: 'Ongi etorri Goikode-ra',
@@ -146,6 +205,34 @@ const eu = {
     funFact: {
       title: 'Ba al zenekien...?',
       description: '"Goikode" izena "goiko" (euskaraz "gorenekoa" esan nahi duena) eta "code" (ingelesez kodea) konbinaziotik dator. Nahiz eta gure CEOk dio tortilla pintxo bat jaten ari zela bururatu zitzaiola.'
+    }
+  },
+  servicios: {
+    title: 'Gure Zerbitzuak',
+    intro: 'Zure enpresa ingurune digital seguru baterantz gidatzen dugu, babestuz eta aztertuz.',
+    pentesting: {
+      title: 'Pentesting',
+      description: 'Benetako erasoen simulazioa, ahultasunak detektatu eta konpontzeko garaiz.'
+    },
+    desarrollo: {
+      title: 'Garapen Segurua',
+      description: 'Softwarea segurtasuna kontuan hartuta garatzen dugu hasieratik amaierara arte.'
+    },
+    auditoria: {
+      title: 'Segurtasun Auditoria',
+      description: 'Sistema eta sare korporatiboetan ahuleziak detektatzeko ebaluazio teknikoak.'
+    },
+    formacion: {
+      title: 'Prestakuntza Teknikoa',
+      description: 'Talde tekniko eta ez-teknikoentzako segurtasunari buruzko prestakuntza praktikoa.'
+    },
+    consultoria: {
+      title: 'Aholkularitza Estrategikoa',
+      description: 'Zibersegurtasunaren egoera hobetzeko eta araudia betetzeko orientazioa.'
+    },
+    monitoreo: {
+      title: '24/7 Monitorizazioa',
+      description: 'Zure sistemak etengabe gainbegiratzea, gertakariei unean bertan erantzuteko.'
     }
   },
   footer: {
