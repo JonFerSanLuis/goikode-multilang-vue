@@ -1,22 +1,22 @@
 <template>
   <div class="contacto">
-    <h1>Contáctanos</h1>
-    <p>Si tienes alguna pregunta o deseas trabajar con nosotros, no dudes en ponerte en contacto.</p>
+    <h1>{{ $t('contacto.title') }}</h1>
+    <p>{{ $t('contacto.description') }}</p>
 
     <div class="contact-info">
       <div class="info-item">
-        <h3>Correo electrónico</h3>
-        <p><a href="mailto:contacto@goikode.com">contacto@goikode.com</a></p>
+        <h3>{{ $t('contacto.email.title') }}</h3>
+        <p><a href="mailto:contacto@goikode.com">{{ $t('contacto.email.value') }}</a></p>
       </div>
 
       <div class="info-item">
-        <h3>Teléfono</h3>
-        <p>+123 456 7890</p>
+        <h3>{{ $t('contacto.phone.title') }}</h3>
+        <p>{{ $t('contacto.phone.value') }}</p>
       </div>
 
       <div class="info-item">
-        <h3>Dirección</h3>
-        <p>Calle de ejemplo</p>
+        <h3>{{ $t('contacto.address.title') }}</h3>
+        <p>{{ $t('contacto.address.value') }}</p>
       </div>
     </div>
   </div>

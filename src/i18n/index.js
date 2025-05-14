@@ -74,6 +74,22 @@ const es = {
       description: 'Vigilancia constante de tus sistemas para detectar y responder a incidentes en tiempo real.'
     }
   },
+  contacto: {
+    title: 'Contáctanos',
+    description: 'Si tienes alguna pregunta o deseas trabajar con nosotros, no dudes en ponerte en contacto.',
+    email: {
+      title: 'Correo electrónico',
+      value: 'contacto@goikode.com'
+    },
+    phone: {
+      title: 'Teléfono',
+      value: '+123 456 7890'
+    },
+    address: {
+      title: 'Dirección',
+      value: 'Calle de ejemplo'
+    }
+  },
   footer: {
     rights: 'Todos los derechos reservados.'
   },
@@ -156,6 +172,22 @@ const en = {
       description: 'Continuous monitoring of your systems to detect and respond to incidents in real time.'
     }
   },
+  contacto: {
+    title: 'Contact Us',
+    description: 'If you have any questions or want to work with us, feel free to get in touch.',
+    email: {
+      title: 'Email',
+      value: 'contact@goikode.com'
+    },
+    phone: {
+      title: 'Phone',
+      value: '+123 456 7890'
+    },
+    address: {
+      title: 'Address',
+      value: 'Sample Street'
+    }
+  },  
   footer: {
     rights: 'All rights reserved.'
   },
@@ -238,6 +270,22 @@ const eu = {
       description: 'Zure sistemak etengabe gainbegiratzea, gertakariei unean bertan erantzuteko.'
     }
   },
+  contacto: {
+    title: 'Harremanetan jarri',
+    description: 'Galderarik baduzu edo gurekin lan egin nahi baduzu, ez izan zalantzarik harremanetan jartzeko.',
+    email: {
+      title: 'Posta elektronikoa',
+      value: 'contacto@goikode.com'
+    },
+    phone: {
+      title: 'Telefonoa',
+      value: '+123 456 7890'
+    },
+    address: {
+      title: 'Helbidea',
+      value: 'Adibide Kalea'
+    }
+  },  
   footer: {
     rights: 'Eskubide guztiak erreserbatuak.'
   },
