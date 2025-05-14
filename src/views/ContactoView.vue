@@ -22,7 +22,6 @@
   </div>
 </template>
 
-
 <style scoped>
 .contacto {
   max-width: 900px;
