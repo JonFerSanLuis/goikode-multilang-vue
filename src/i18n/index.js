@@ -185,7 +185,7 @@ const en = {
     },
     address: {
       title: 'Address',
-      value: 'Sample Street'
+      value: 'Street'
     }
   },
   footer: {
