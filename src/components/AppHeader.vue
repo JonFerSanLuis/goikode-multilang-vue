@@ -6,6 +6,9 @@
         <router-link to="/servicios">{{ $t('nav.servicios') }}</router-link>
         <router-link to="/">{{ $t('nav.home') }}</router-link>
         <router-link to="/about">{{ $t('nav.about') }}</router-link>
+        <router-link to="/contacto" class="contact-button">
+      {{ $t('servicios.contactar') }}
+    </router-link>
         <LanguageSelector class="language-selector" />
       </nav>
     </div>
