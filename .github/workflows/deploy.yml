@@ -8,19 +8,12 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Build Vue app
-        run: |
-          npm install
-          npm run build
-
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          branch: gh-pages              # Rama de destino
-          folder: dist                  # Carpeta generada por Vue tras el build
-          token: ${{ secrets.GH_PAGES_TOKEN }}  # Tu token personal (guardado como secreto)
+          branch: gh-pages
+          folder: .
