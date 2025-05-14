@@ -48,6 +48,7 @@ const es = {
   servicios: {
     title: 'Nuestros Servicios',
     intro: 'Protegemos, analizamos y guiamos tu empresa hacia un entorno digital seguro.',
+    contactar: 'Contactar',
     pentesting: {
       title: 'Pentesting',
       description: 'Simulación de ataques reales para identificar y solucionar vulnerabilidades antes de que sean explotadas.'
@@ -129,6 +130,7 @@ const en = {
   servicios: {
     title: 'Our Services',
     intro: 'We protect, analyze, and guide your company towards a secure digital environment.',
+    contactar: 'Contact us',
     pentesting: {
       title: 'Pentesting',
       description: 'Real-world attack simulation to identify and fix vulnerabilities before attackers do.'
@@ -210,6 +212,7 @@ const eu = {
   servicios: {
     title: 'Gure Zerbitzuak',
     intro: 'Zure enpresa ingurune digital seguru baterantz gidatzen dugu, babestuz eta aztertuz.',
+    contactar: 'Kontaktatu',
     pentesting: {
       title: 'Pentesting',
       description: 'Benetako erasoen simulazioa, ahultasunak detektatu eta konpontzeko garaiz.'

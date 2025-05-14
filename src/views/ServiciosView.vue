@@ -5,42 +5,44 @@
 
     <div class="cards">
       <div class="service-card pentesting">
-        <div class="icon">🛡️</div>
         <h3>{{ $t('servicios.pentesting.title') }}</h3>
         <p>{{ $t('servicios.pentesting.description') }}</p>
       </div>
 
       <div class="service-card desarrollo">
-        <div class="icon">💻</div>
         <h3>{{ $t('servicios.desarrollo.title') }}</h3>
         <p>{{ $t('servicios.desarrollo.description') }}</p>
       </div>
 
       <div class="service-card auditoria">
-        <div class="icon">📊</div>
         <h3>{{ $t('servicios.auditoria.title') }}</h3>
         <p>{{ $t('servicios.auditoria.description') }}</p>
       </div>
 
       <div class="service-card formacion">
-        <div class="icon">🎓</div>
         <h3>{{ $t('servicios.formacion.title') }}</h3>
         <p>{{ $t('servicios.formacion.description') }}</p>
       </div>
 
       <div class="service-card consultoria">
-        <div class="icon">🤝</div>
         <h3>{{ $t('servicios.consultoria.title') }}</h3>
         <p>{{ $t('servicios.consultoria.description') }}</p>
       </div>
 
       <div class="service-card monitoreo">
-        <div class="icon">📡</div>
         <h3>{{ $t('servicios.monitoreo.title') }}</h3>
         <p>{{ $t('servicios.monitoreo.description') }}</p>
       </div>
     </div>
   </div>
+
+  <div class="contact-button-container">
+    <router-link to="/contacto" class="contact-button">
+      {{ $t('servicios.contactar') }}
+    </router-link>
+  </div>
+
+
 </template>
 
 
@@ -76,6 +78,7 @@ h1 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s, box-shadow 0.3s;
   border-left: 5px solid var(--primary-color);
+  border-color: #00685c;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -96,11 +99,25 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
-/* Variaciones de color */
-.pentesting { border-color: #e63946; }
-.desarrollo { border-color: #64ddcf; }
-.auditoria  { border-color: #00685c; }
-.formacion  { border-color: #2a9d8f; }
-.consultoria { border-color: #64ddcf; }
-.monitoreo  { border-color: #00685c; }
+.contact-button-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.contact-button {
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.contact-button:hover {
+  background-color: #005247;
+}
 </style>
