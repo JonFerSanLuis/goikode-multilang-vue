@@ -5,7 +5,8 @@ const es = {
   nav: {
     home: 'Inicio',
     about: 'Sobre Nosotros',
-    servicios: 'Servicios'
+    servicios: 'Servicios',
+    clientes: 'Clientes'
   },
   home: {
     welcome: 'Bienvenido a Goikode',
@@ -90,6 +91,23 @@ const es = {
       value: 'Calle de ejemplo'
     }
   },
+  clientes: {
+    title: 'Nuestros Clientes',
+    intro: 'Trabajamos con organizaciones de todos los tamaños y sectores. Estas son algunas con las que hemos colaborado.',
+    testimoniosTitle: 'Testimonios',
+    testimonios: [
+      {
+        nombre: 'Ana López',
+        empresa: 'Empresa A',
+        mensaje: 'Excelente servicio y atención personalizada. Muy recomendados.'
+      },
+      {
+        nombre: 'Carlos Pérez',
+        empresa: 'Empresa B',
+        mensaje: 'Gracias al equipo, ahora nuestros sistemas son mucho más seguros.'
+      }
+    ],
+  },
   footer: {
     rights: 'Todos los derechos reservados.'
   },
@@ -103,7 +121,8 @@ const en = {
   nav: {
     home: 'Home',
     about: 'About Us',
-    servicios: 'Services'
+    servicios: 'Services',
+    clientes: 'Clients'
   },
   home: {
     welcome: 'Welcome to Goikode',
@@ -188,6 +207,23 @@ const en = {
       value: 'Sample Street'
     }
   },  
+  clientes: {
+    title: 'Our Clients',
+    intro: 'We work with organizations of all sizes and sectors. These are some we\'ve collaborated with.',
+    testimoniosTitle: 'Testimonials',
+    testimonios: [
+      {
+        nombre: 'Ana López',
+        empresa: 'Empresa A',
+        mensaje: 'Excellent service and personalized attention. Highly recommended.'
+      },
+      {
+        nombre: 'Carlos Pérez',
+        empresa: 'Empresa B',
+        mensaje: 'Thanks to the team, our systems are now much more secure.'
+      }
+    ]
+  },  
   footer: {
     rights: 'All rights reserved.'
   },
@@ -201,7 +237,8 @@ const eu = {
   nav: {
     home: 'Hasiera',
     about: 'Guri Buruz',
-    servicios: 'Zerbitzuak'
+    servicios: 'Zerbitzuak',
+    clientes: 'Bezeroak'
   },
   home: {
     welcome: 'Ongi etorri Goikode-ra',
@@ -285,6 +322,23 @@ const eu = {
       title: 'Helbidea',
       value: 'Adibide Kalea'
     }
+  },  
+  clientes: {
+    title: 'Gure Bezeroak',
+    intro: 'Tamaina eta sektore guztietako erakundeekin lan egiten dugu. Hauek dira lankidetzan aritu garen batzuk.',
+    testimoniosTitle: 'Testigantzak',
+    testimonios: [
+      {
+        nombre: 'Ana López',
+        empresa: 'Empresa A',
+        mensaje: 'Zerbitzu bikaina eta arreta pertsonalizatua. Gomendagarria erabat.'
+      },
+      {
+        nombre: 'Carlos Pérez',
+        empresa: 'Empresa B',
+        mensaje: 'Taldeari esker, gure sistemak askoz seguruagoak dira orain.'
+      }
+    ]
   },  
   footer: {
     rights: 'Eskubide guztiak erreserbatuak.'
